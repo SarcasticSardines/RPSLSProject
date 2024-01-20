@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Bree;
+    src: url(../Assets/BreeSerif-Regular.ttf);
+}
+.spaceBg{
+    background-image: url(../Assets/aldebaran-s-uXchDIKs4qI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textVisible{
+    color: white;
+    font-family: Bree;
+}
+.bigSpace{
+    margin-bottom: 8%;
+}
+.rulesNav{
+   display: flex;
+   justify-content: end;
+   margin-right: 2%;
+   text-align: end;
+}
+.rulesTitle{
+    font-size: 27px;
+    margin-top: 3%;
+    background-color: rgb(152, 90, 209, 0.5);
+    padding: 10px;
+    border: 1px solid #64ccf5;
+    border-radius: 8%;
+}
+.rulesBox{
+    background-color: rgb(116, 20, 206);
+    width: 17%;
+    padding: 15px;
+    color: white;
+    border: 1px solid rgb(100, 204, 245);
+    border-radius: 10px;
+    position: absolute;
+    right: 4%;
+    margin-top: 1%;
+    display: none;
+}
+.rulesTxt{
+    font-family: Bree;
+    font-size: 24px;
+}
+.gameModes{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 3%;
+}
+.gameBtn{
+    background-color: #64ccf5;
+    width: 11%;
+    border: 2px solid #985ad1;
+    border-radius: 10px;
+}
+.playBox{
+    /* display: flex;
+    justify-content: space-evenly; */
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+.playBtn{
+    background-color: #a31e4a;
+    width: 12%;
+    height: 45px;
+    border: 2px solid #64ccf5;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.p1Enter{
+    display: none;
+    margin: auto;
+    margin-top: 3%;
+   text-align: center;
+}
+.p2Enter{
+    display: none;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+.btnBox{
+    position: relative;
+    margin-top: 7%;
+}
+.bigBtn{
+    height: 50px;
+    width: 85px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #7414ce;
+    border: 2px solid #64ccf5;
+    border-radius: 10px;
+    color: white;
+}
+.p1BtnSelect{
+    display: none;
+    position: absolute;
+    left: 17%;
+}
+.p2BtnSelect{
+    display: none;
+  right: 17%;
+   position: absolute;
+}
+.winBox{
+    margin: auto;
+    margin-top: 15%;
+    background-color: rgb(100, 204, 245);
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Bree;
+    border: 3px solid rgb(152, 90, 209);
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top: 11%;
+}
